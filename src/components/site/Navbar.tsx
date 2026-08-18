@@ -73,8 +73,8 @@ export function Navbar() {
       {/* Mobile navigation */}
       <div
         className={cn(
-          "fixed inset-x-0 top-[4.5rem] bottom-0 z-40 origin-top bg-background px-5 pb-10 pt-6 transition-all duration-300 lg:hidden",
-          open ? "visible opacity-100" : "invisible -translate-y-2 opacity-0",
+          "fixed left-1/2 top-[4.5rem] z-40 w-[calc(100%-1.5rem)] max-w-xl -translate-x-1/2 origin-top rounded-2xl border border-border/80 bg-background/95 p-4 shadow-elevated backdrop-blur-xl transition-all duration-300 lg:hidden",
+          open ? "visible translate-y-0 opacity-100" : "invisible -translate-y-2 opacity-0",
         )}
       >
         <nav aria-label="Mobile" className="flex flex-col gap-1">
@@ -85,13 +85,13 @@ export function Navbar() {
               activeOptions={{ exact: link.to === "/" }}
               activeProps={{ className: "bg-secondary text-foreground" }}
               onClick={() => setOpen(false)}
-              className="rounded-lg px-4 py-3.5 text-base font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+              className="rounded-xl px-4 py-3.5 text-base font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
             >
               {link.label}
             </Link>
           ))}
         </nav>
-        <Button asChild variant="hero" size="xl" className="mt-6 w-full">
+        <Button asChild variant="hero" size="xl" className="mt-4 w-full">
           <Link to="/contact" onClick={() => setOpen(false)}>
             Get in touch <ArrowRight className="size-4" />
           </Link>
