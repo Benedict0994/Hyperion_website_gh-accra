@@ -38,7 +38,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "Hyperion Technology",
+          name: "Hyperion Technologies",
           description: DESCRIPTION,
           email: siteConfig.email,
           telephone: siteConfig.phone,

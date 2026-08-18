@@ -5,13 +5,13 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Inside Hyperion — Hyperion Technology" },
+      { title: "Inside Hyperion — Hyperion Technologies" },
       {
         name: "description",
         content:
           "Moments from our workspace, project deployments, events and the teams behind our technology.",
       },
-      { property: "og:title", content: "Inside Hyperion — Hyperion Technology" },
+      { property: "og:title", content: "Inside Hyperion — Hyperion Technologiess" },
       {
         property: "og:description",
         content:
