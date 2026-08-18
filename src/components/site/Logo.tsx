@@ -5,7 +5,7 @@ export function Logo({ tone = "light" }: { tone?: "light" | "dark" }) {
   const dark = tone === "dark";
   return (
     <Link to="/" className="group flex items-center gap-3" aria-label="Hyperion Technology home">
-      <span className="relative grid size-25 place-items-center overflow-hidden rounded-md  p-1.5  ring-1 ring-black/5">
+      <span className="relative grid size-25 place-items-center overflow-hidden rounded-md  p-1.5  ">
         <img
           src="/image.png"
           alt="Hyperion Technology logo"
