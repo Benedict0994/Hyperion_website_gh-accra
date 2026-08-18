@@ -81,10 +81,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Hyperion Technology delivers software engineering, cloud, data and cybersecurity solutions for growing organisations.",
+          "Hyperion Technologies delivers software engineering, cloud, data and cybersecurity solutions for growing organisations.",
       },
-      { name: "author", content: "Hyperion Technology" },
-      { property: "og:site_name", content: "Hyperion Technology" },
+      { name: "author", content: "Hyperion Technologies" },
+      { property: "og:site_name", content: "Hyperion Technologies" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

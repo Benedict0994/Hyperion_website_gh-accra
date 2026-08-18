@@ -5,12 +5,12 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Talk to Our Team — Hyperion Technology" },
+      { title: "Talk to Our Team — Hyperion Technologies" },
       {
         name: "description",
         content: "Tell us about your project and our team will respond within one business day.",
       },
-      { property: "og:title", content: "Talk to Our Team — Hyperion Technology" },
+      { property: "og:title", content: "Talk to Our Team — Hyperion Technologies" },
       {
         property: "og:description",
         content: "Tell us about your project and our team will respond within one business day.",

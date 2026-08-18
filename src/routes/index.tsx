@@ -18,7 +18,7 @@ import projectFintech from "@/assets/project-fintech.jpg";
 
 const TITLE = "Hyperion Technology — Powering Innovation Through Technology";
 const DESCRIPTION =
-  "Hyperion Technology delivers software engineering, cloud, data and cybersecurity solutions that help organisations solve problems, improve operations and grow.";
+  "Hyperion Technologies delivers software engineering, cloud, data and cybersecurity solutions that help organisations solve problems, improve operations and grow.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -166,7 +166,7 @@ function HomePage() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-7 max-w-xl text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
-                Hyperion Technology designs, builds and operates technology solutions that help
+                Hyperion Technologies designs, builds and operates technology solutions that help
                 businesses and organisations solve real problems, improve operations and grow with
                 confidence.
               </p>
@@ -459,7 +459,7 @@ function HomePage() {
             </blockquote>
             <figcaption className="mt-6 text-sm text-muted-foreground">
               <span className="font-semibold text-foreground">Adwoa Mensah</span> — Chief Operating
-              Officer, Meridian Group
+              Officer, (preparing soon)
             </figcaption>
           </figure>
         </Reveal>

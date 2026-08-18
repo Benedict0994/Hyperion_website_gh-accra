@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "Hyperion Technology",
+  name: "Hyperion Technologies",
   tagline: "Powering Innovation Through Technology",
   description:
-    "Hyperion Technology builds secure, scalable technology solutions that help businesses and organizations solve problems, improve operations, and grow.",
+    "Hyperion Technologies builds secure, scalable technology solutions that help businesses and organizations solve problems, improve operations, and grow.",
   email: "hello@hyperiontechnology.com",
   phone: "+233 30 000 0000",
   address: "Airport City, Accra, Ghana",

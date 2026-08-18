@@ -5,13 +5,13 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Blog and News — Hyperion Technology" },
+      { title: "Blog and News — Hyperion Technologies" },
       {
         name: "description",
         content:
           "Practical engineering insight, product updates and technology commentary from the Hyperion Technology team.",
       },
-      { property: "og:title", content: "Blog and News — Hyperion Technology" },
+      { property: "og:title", content: "Blog and News — Hyperion Technologies" },
       {
         property: "og:description",
         content:
@@ -32,7 +32,7 @@ function BlogPage() {
       <PageHero
         eyebrow="Insights"
         title="Blog and News"
-        description="Practical engineering insight, product updates and technology commentary from the Hyperion Technology team."
+        description="Practical engineering insight, product updates and technology commentary from the Hyperion Technologies team."
       />
       <section className="mx-auto max-w-7xl px-5 py-24 lg:px-8">
         <p className="text-muted-foreground">This section is being prepared.</p>
