@@ -147,7 +147,10 @@ function HomePage() {
           className="absolute inset-0 size-full object-cover opacity-45"
         />
         <div className="grid-lines absolute inset-0 opacity-40" aria-hidden />
-        <div className="absolute inset-0 bg-[linear-gradient(100deg,var(--primary-deep)_25%,transparent_85%)]" aria-hidden />
+        <div
+          className="absolute inset-0 bg-[linear-gradient(100deg,var(--primary-deep)_25%,transparent_85%)]"
+          aria-hidden
+        />
 
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 py-24 lg:grid-cols-[1.15fr_1fr] lg:items-center lg:px-8 lg:py-32">
           <div>

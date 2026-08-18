@@ -153,15 +153,14 @@ Anyone should be able to visit the website and browse the content.
 Create these routes:
 
 /
- /about
- /services
- /gallery
- /projects
- /projects/:id
- /blog
- /blog/:slug
- /contact
-
+/about
+/services
+/gallery
+/projects
+/projects/:id
+/blog
+/blog/:slug
+/contact
 
 6. HOME PAGE
 
@@ -285,7 +284,6 @@ Route:
 
 /projects/:id
 
-
 10. GALLERY
 
 Create a modern responsive gallery.
@@ -316,7 +314,6 @@ Routes:
 
 /blog
 /blog/:slug
-
 
 Each post should support:
 
@@ -386,7 +383,6 @@ Admin routes:
 /admin/gallery
 /admin/messages
 /admin/settings
-
 
 Public users must never be able to access these pages without authentication.
 
@@ -475,21 +471,20 @@ Prepare the application for cloud storage such as Cloudinary.
 Expected architecture:
 
 Admin
- ↓
+↓
 Select Image
- ↓
+↓
 React Frontend
- ↓
+↓
 Backend API
- ↓
+↓
 Cloudinary
- ↓
+↓
 Image URL
- ↓
+↓
 MongoDB
- ↓
+↓
 Public Website
-
 
 Include:
 
@@ -508,13 +503,12 @@ Store image URLs/references in the database, not large image files directly in M
 Structure the frontend for future integration with:
 
 React + TypeScript
-        ↓
+↓
 Node.js + Express
-        ↓
+↓
 MongoDB
-        ↓
+↓
 Cloudinary
-
 
 Do not create fake architecture that will need to be completely rewritten later.
 
@@ -604,8 +598,8 @@ src/
 ├── components/
 ├── layouts/
 ├── pages/
-│   ├── public/
-│   └── admin/
+│ ├── public/
+│ └── admin/
 ├── routes/
 ├── hooks/
 ├── services/
@@ -613,7 +607,6 @@ src/
 ├── utils/
 ├── lib/
 └── assets/
-
 
 Create reusable components such as:
 
@@ -632,7 +625,6 @@ Toast
 ProtectedRoute
 AdminSidebar
 AdminNavbar
-
 
 Avoid putting the entire application in a few large files.
 

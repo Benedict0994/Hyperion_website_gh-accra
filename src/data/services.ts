@@ -9,7 +9,11 @@ export const services: Service[] = [
       "Custom web platforms, internal systems and product engineering built to your operating reality — not a template.",
     icon: "Code2",
     features: ["Web & platform development", "API and systems integration", "Legacy modernisation"],
-    benefits: ["Faster time to market", "Lower maintenance cost", "Systems your team can grow into"],
+    benefits: [
+      "Faster time to market",
+      "Lower maintenance cost",
+      "Systems your team can grow into",
+    ],
     published: true,
     order: 1,
   },
@@ -44,7 +48,11 @@ export const services: Service[] = [
     description:
       "Assessments, hardening and monitoring that protect your data, your customers and your reputation.",
     icon: "ShieldCheck",
-    features: ["Security assessments", "Identity & access management", "Incident response planning"],
+    features: [
+      "Security assessments",
+      "Identity & access management",
+      "Incident response planning",
+    ],
     benefits: ["Reduced breach risk", "Regulatory readiness", "Customer trust"],
     published: true,
     order: 4,

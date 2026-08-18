@@ -21,13 +21,7 @@ export function SectionHeading({
 }: SectionHeadingProps) {
   const dark = tone === "dark";
   return (
-    <div
-      className={cn(
-        "max-w-2xl",
-        align === "center" && "mx-auto text-center",
-        className,
-      )}
-    >
+    <div className={cn("max-w-2xl", align === "center" && "mx-auto text-center", className)}>
       {eyebrow ? (
         <p
           className={cn(
